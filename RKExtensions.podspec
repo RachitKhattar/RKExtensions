@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RKExtensions'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A separation for all the Common Extensions'
   s.swift_version    = '5.0'
 

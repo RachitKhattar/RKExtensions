@@ -10,7 +10,7 @@
 		16F9A7EAE957E70A3C74CD1D6ADE1437 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3BC5BA56741B140A7AD28DD39CDD55EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3F0D08C9C89BD086671EB80F9D261C37 /* Pods-RKExtensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F6BAC87C85D7FDD699D99962660BA1 /* Pods-RKExtensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BE8E1432506844B000EE1FC /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8E1422506844B000EE1FC /* ArrayExtension.swift */; };
+		4BE8E1472506BADF000EE1FC /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8E1462506BADF000EE1FC /* ArrayExtension.swift */; };
 		D6B0532107FD12DAA8AB07DABE316CBE /* Pods-RKExtensions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A96DE6665F203781E2183EC602855774 /* Pods-RKExtensions_Tests-dummy.m */; };
 		F302C56C57D1A4B4ACB03410AF436DB7 /* RKExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ECA3C52B7B42F7B469BD5684898AD22 /* RKExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB7FFF746D6340F5F146550214ACE69C /* RKExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D70FEE1ED116B5B738E42A0BC1A781AE /* RKExtensions-dummy.m */; };
@@ -36,7 +36,7 @@
 		4153D90F8E9C35E342C888F70EBC79A0 /* RKExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RKExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41AA1D2AED66C5A186ECAB58E5F94ED0 /* Pods-RKExtensions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RKExtensions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4B3C8063B5875EE88582D529E87F1BC0 /* RKExtensions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RKExtensions-Info.plist"; sourceTree = "<group>"; };
-		4BE8E1422506844B000EE1FC /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		4BE8E1462506BADF000EE1FC /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrayExtension.swift; path = RKExtensions/Classes/Extensions/ArrayExtension.swift; sourceTree = "<group>"; };
 		60DB4F9AA17E06A94397206956CF68EF /* Pods-RKExtensions_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RKExtensions_Tests-Info.plist"; sourceTree = "<group>"; };
 		98A627A53587B32675E5CE06CAEC48C9 /* RKExtensions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RKExtensions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A794B8BE8AAF2BFF74C23C1E193CC3A /* RKExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RKExtensions.debug.xcconfig; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		052ABA362A13CD4E5422ABCD00A6BDED /* RKExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				4BE8E1412506839F000EE1FC /* Extensions */,
+				4BE8E1462506BADF000EE1FC /* ArrayExtension.swift */,
 				9C6CC48430A0D3AD180F1D8A5DFF414A /* Pod */,
 				D06B86E74354C297050B32D0CD98DD56 /* Support Files */,
 			);
@@ -91,14 +91,6 @@
 				4153D90F8E9C35E342C888F70EBC79A0 /* RKExtensions.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4BE8E1412506839F000EE1FC /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				4BE8E1422506844B000EE1FC /* ArrayExtension.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		8E7D00FB2B0C44AA789E9DB8D7B1D063 /* Targets Support Files */ = {
@@ -301,7 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6B0532107FD12DAA8AB07DABE316CBE /* Pods-RKExtensions_Tests-dummy.m in Sources */,
-				4BE8E1432506844B000EE1FC /* ArrayExtension.swift in Sources */,
+				4BE8E1472506BADF000EE1FC /* ArrayExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
