@@ -1,0 +1,22 @@
+{
+  "name": "RKExtensions",
+  "version": "0.1.0",
+  "summary": "A short description of RKExtensions.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Rachit Khattar/RKExtensions",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Rachit Khattar": "rachit.khattar@timesinternet.in"
+  },
+  "source": {
+    "git": "https://github.com/Rachit Khattar/RKExtensions.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RKExtensions/Classes/**/*"
+}

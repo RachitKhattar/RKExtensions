@@ -1,0 +1,16 @@
+PODS:
+  - RKExtensions (0.1.0)
+
+DEPENDENCIES:
+  - RKExtensions (from `../`)
+
+EXTERNAL SOURCES:
+  RKExtensions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RKExtensions: 0483acf01829874e66060056acbf17da7533a14b
+
+PODFILE CHECKSUM: 10243d2fa88f2082a9342d7fd6c3e608ae44f011
+
+COCOAPODS: 1.9.3

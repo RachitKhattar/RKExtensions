@@ -1,0 +1,6 @@
+framework module RKExtensions {
+  umbrella header "RKExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}
