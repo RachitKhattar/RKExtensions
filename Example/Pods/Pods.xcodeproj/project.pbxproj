@@ -10,7 +10,7 @@
 		16F9A7EAE957E70A3C74CD1D6ADE1437 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3BC5BA56741B140A7AD28DD39CDD55EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3F0D08C9C89BD086671EB80F9D261C37 /* Pods-RKExtensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F6BAC87C85D7FDD699D99962660BA1 /* Pods-RKExtensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C79B89F20B712E7356999EBC44267A2D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19B36BA7BA10E0585DFBEAD8002B32 /* ReplaceMe.swift */; };
+		4BE8E1432506844B000EE1FC /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8E1422506844B000EE1FC /* ArrayExtension.swift */; };
 		D6B0532107FD12DAA8AB07DABE316CBE /* Pods-RKExtensions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A96DE6665F203781E2183EC602855774 /* Pods-RKExtensions_Tests-dummy.m */; };
 		F302C56C57D1A4B4ACB03410AF436DB7 /* RKExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ECA3C52B7B42F7B469BD5684898AD22 /* RKExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB7FFF746D6340F5F146550214ACE69C /* RKExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D70FEE1ED116B5B738E42A0BC1A781AE /* RKExtensions-dummy.m */; };
@@ -30,19 +30,19 @@
 		006F4F5E798EA3F931FC51D6CAC019B0 /* Pods-RKExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0D17E7BBAD1A17B07F49FB18E98464F7 /* Pods-RKExtensions_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RKExtensions_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1D947000A8FAEA90F9399195F80EDC46 /* Pods-RKExtensions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RKExtensions_Tests.modulemap"; sourceTree = "<group>"; };
-		2A52CD2B0FB918DCB10323CC652D1176 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2A52CD2B0FB918DCB10323CC652D1176 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2ECA3C52B7B42F7B469BD5684898AD22 /* RKExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RKExtensions-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3F19B36BA7BA10E0585DFBEAD8002B32 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RKExtensions/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		4153D90F8E9C35E342C888F70EBC79A0 /* RKExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RKExtensions.framework; path = RKExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4153D90F8E9C35E342C888F70EBC79A0 /* RKExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RKExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41AA1D2AED66C5A186ECAB58E5F94ED0 /* Pods-RKExtensions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RKExtensions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4B3C8063B5875EE88582D529E87F1BC0 /* RKExtensions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RKExtensions-Info.plist"; sourceTree = "<group>"; };
+		4BE8E1422506844B000EE1FC /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
 		60DB4F9AA17E06A94397206956CF68EF /* Pods-RKExtensions_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RKExtensions_Tests-Info.plist"; sourceTree = "<group>"; };
-		98A627A53587B32675E5CE06CAEC48C9 /* RKExtensions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RKExtensions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98A627A53587B32675E5CE06CAEC48C9 /* RKExtensions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RKExtensions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A794B8BE8AAF2BFF74C23C1E193CC3A /* RKExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RKExtensions.debug.xcconfig; sourceTree = "<group>"; };
 		9ABE68946DAE080A31A0603394B24904 /* RKExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RKExtensions-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E61EA5EE1F082AE6302DB20B725C5F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E61EA5EE1F082AE6302DB20B725C5F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A96DE6665F203781E2183EC602855774 /* Pods-RKExtensions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RKExtensions_Tests-dummy.m"; sourceTree = "<group>"; };
 		BABAEBBCA1214A0C04953044E37440A9 /* RKExtensions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RKExtensions.release.xcconfig; sourceTree = "<group>"; };
 		C0F6BAC87C85D7FDD699D99962660BA1 /* Pods-RKExtensions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RKExtensions_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		D5A41FDEFC26A6404DAC122EB95BD06A /* Pods-RKExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D70FEE1ED116B5B738E42A0BC1A781AE /* RKExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RKExtensions-dummy.m"; sourceTree = "<group>"; };
 		D9B031CB7783A144F09A6330001C8782 /* Pods-RKExtensions_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RKExtensions_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E09E93A38661CAEA595F31F1F47AD481 /* Pods_RKExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RKExtensions_Tests.framework; path = "Pods-RKExtensions_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09E93A38661CAEA595F31F1F47AD481 /* Pods_RKExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RKExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 		052ABA362A13CD4E5422ABCD00A6BDED /* RKExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				3F19B36BA7BA10E0585DFBEAD8002B32 /* ReplaceMe.swift */,
+				4BE8E1412506839F000EE1FC /* Extensions */,
 				9C6CC48430A0D3AD180F1D8A5DFF414A /* Pod */,
 				D06B86E74354C297050B32D0CD98DD56 /* Support Files */,
 			);
@@ -91,6 +91,14 @@
 				4153D90F8E9C35E342C888F70EBC79A0 /* RKExtensions.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4BE8E1412506839F000EE1FC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4BE8E1422506844B000EE1FC /* ArrayExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		8E7D00FB2B0C44AA789E9DB8D7B1D063 /* Targets Support Files */ = {
@@ -245,6 +253,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					E5E00A8CA8231EC9191D4FD67C758163 = {
+						LastSwiftMigration = 1150;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -288,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6B0532107FD12DAA8AB07DABE316CBE /* Pods-RKExtensions_Tests-dummy.m in Sources */,
+				4BE8E1432506844B000EE1FC /* ArrayExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C79B89F20B712E7356999EBC44267A2D /* ReplaceMe.swift in Sources */,
 				FB7FFF746D6340F5F146550214ACE69C /* RKExtensions-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,8 +409,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -504,6 +516,7 @@
 			baseConfigurationReference = D5A41FDEFC26A6404DAC122EB95BD06A /* Pods-RKExtensions_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -526,6 +539,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -537,6 +552,7 @@
 			baseConfigurationReference = 006F4F5E798EA3F931FC51D6CAC019B0 /* Pods-RKExtensions_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -559,6 +575,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
