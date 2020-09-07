@@ -1,0 +1,6 @@
+use_frameworks!
+target 'RKExtensions_Tests' do
+  pod 'RKExtensions', :path => '../'
+  
+  
+end
